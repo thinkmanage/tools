@@ -15,7 +15,9 @@
     },
     "autoload": {
         "psr-4": {
-           "thinkmanage\\tools\\": "src/"
+           "thinkmanage\\tools\\": "src/",
+            "topthink/framework": "^2.0",
+            "topthink/think-template": "^6.0"
         },
         "files": [
             "src/helper.php"
