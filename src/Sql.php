@@ -65,7 +65,7 @@ class Sql{
 	 */
 	public static function parse( $sql, $newPre = '', $oldPre = 'tm_'){
 		if ($newPre == '') {
-			$newPre = Config::get('database.connections.main.prefix','tm_')
+			$newPre = Config::get('database.connections.main.prefix','tm_');
 		}
 		// 前缀替换
 		if ($oldPre != $newPre) {
