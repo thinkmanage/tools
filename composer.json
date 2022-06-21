@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=7.0.0",
+        "php": "^7.0.0",
         "topthink/framework": "^6.0.0",
         "topthink/think-template": "^6.0"
     },
