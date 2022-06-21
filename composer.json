@@ -11,13 +11,13 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "topthink/framework": "^6.0.0",
+        "topthink/think-template": "^6.0"
     },
     "autoload": {
         "psr-4": {
-           "thinkmanage\\tools\\": "src/",
-            "topthink/framework": "^2.0",
-            "topthink/think-template": "^6.0"
+           "thinkmanage\\tools\\": "src/"
         },
         "files": [
             "src/helper.php"
